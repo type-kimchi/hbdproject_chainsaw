@@ -50,7 +50,7 @@ const PresentPage: React.FC = () => {
 
   return (
     <PresentContainer>
-      <CelebrationText>가영이를 위한 선물은 과연 무엇일까요 ...?</CelebrationText>
+      <CelebrationText>기톱이를 위한 선물은 과연 무엇일까요 ...?</CelebrationText>
       {!showImage && <CountdownText>{countdown}</CountdownText>}
       <Image show={showImage} src="/images/present.jpg" alt="present"/>
     </PresentContainer>
