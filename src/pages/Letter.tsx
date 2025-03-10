@@ -78,7 +78,7 @@ const LetterPage: React.FC = () => {
       </LetterPaper>
       <VideoWrapper>
         <TitleText>Listen to the Song 🎤</TitleText>
-        <YouTube videoId="Mcp1UhXsyU4" opts={videoOptions} />
+        <YouTube videoId="M2cckDmNLMI" opts={videoOptions} />
       </VideoWrapper>
     </LetterContainer>
   );
