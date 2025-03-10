@@ -145,11 +145,11 @@ const Main = () => {
     { img: "E1.jpg", text: "너가 좋은 첫 번째 이유, <br/> 예뻐서," },
     {
       img: "E2.jpg",
-      text: "너가 좋은 두 번째 이유, <br/> 화끈해서,",
+      text: "너가 좋은 두 번째 이유, <br/> 귀여워서,",
     },
     {
       img: "E3.jpg",
-      text: "너가 좋은 세 번째 이유, <br/> 언제나 주어진 일에 최선을 다해서,",
+      text: "너가 좋은 세 번째 이유, <br/> 전기톱을 잘 다뤄서,",
     },
     {
       img: "E4.jpg",
@@ -191,9 +191,9 @@ const Main = () => {
           </ReasonItem>
         ))}
       </ReasonContainer>
-      <Title>🎉가영이 30번째 생일을 진심으로 축하해 🎉</Title>
-      <Developer>Developed by. 가영 옆에서 든든히 지키는 상원오빠가 🐶 </Developer>
-      <DevelopText>github: @sosimina</DevelopText>
+      <Title>🎉기톱이 30번째 생일을 진심으로 축하해 🎉</Title>
+      <Developer>Developed by. 기톱이 옆에서 든든히 지키는 기톱이가 🐶 </Developer>
+      <DevelopText>github: @chainsawman</DevelopText>
     </BannerContainer>
   );
 };

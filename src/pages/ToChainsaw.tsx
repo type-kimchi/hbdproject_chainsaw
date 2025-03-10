@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const ToGayoungContainer = styled.div`
+const ToChainsawContainer = styled.div`
   background-color: #dbf1c9;
   min-height: 100vh;
   display: flex;
@@ -78,7 +78,7 @@ const MessageContainer = styled.div`
   flex-direction: column;
 `;
 
-const ToGayoungPage = () => {
+const ToChainsawPage = () => {
   const [showInput, setShowInput] = useState(false);
   const [message, setMessage] = useState("");
   const [userMessages, setUserMessages] = useState<string[]>([]);
@@ -94,11 +94,11 @@ const ToGayoungPage = () => {
   };
 
   return (
-    <ToGayoungContainer>
+    <ToChainsawContainer>
       <ImageWrapper>
         <StyledImage src="/images/E0.jpg" alt="설명" />
       </ImageWrapper>
-      <Title>가영이에게 생일 축하 인사를 남겨보세요!</Title>
+      <Title>기톱이에게 생일 축하 인사를 남겨보세요!</Title>
       {showInput ? (
         <>
           <MessageInput
@@ -113,8 +113,8 @@ const ToGayoungPage = () => {
       {userMessages.map((userMessage, index) => (
         <MessageContainer key={index}>{userMessage}</MessageContainer>
       ))}
-    </ToGayoungContainer>
+    </ToChainsawContainer>
   );
 };
 
-export default ToGayoungPage;
+export default ToChainsawPage;
