@@ -163,7 +163,7 @@ const Main = () => {
 
   return (
     <BannerContainer>
-      <Title>😼 All About Gayoung 😼</Title>
+      <Title>😼 All About Chainsaw 😼</Title>
       <ImageContainer>
         <SlideButton onClick={prevSlide} style={{ left: "10px" }}>
           &#10094;
