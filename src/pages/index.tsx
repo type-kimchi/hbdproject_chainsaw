@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import MainComponent from "./Main";
-import ToGayoungPage from "./ToGayoung";
+import ToChainsawPage from "./ToChainsaw";
 import PhotoPage from './Photo';
 import PresentPage from './Present';
 import LetterPage from "./Letter";
@@ -69,7 +69,7 @@ const IndexPage = () => {
 
   return (
     <MainContainer> 
-      <Title>❤️가영 생일 축하해❤️</Title>
+      <Title>❤️기톱이 생일 축하해❤️</Title>
       <ButtonsContainer>
         {buttons.map((button, index) => (
           <Button
@@ -82,7 +82,7 @@ const IndexPage = () => {
         ))}
       </ButtonsContainer>
       {activeButton === "Main" && <MainComponent />} 
-      {activeButton === "To Gayoung" && <ToGayoungPage />}
+      {activeButton === "To Chainsaw" && <ToChainsawPage />}
       {activeButton === 'Photo' && <PhotoPage />} 
       {activeButton === 'Present' && <PresentPage />} 
       {activeButton === 'Letter for Gayoung' && <LetterPage />} 
